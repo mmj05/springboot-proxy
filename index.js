@@ -37,7 +37,7 @@ app.use(
 );
 
 app.use(
-  "/api",
+  "/love-to-read",
   createProxyMiddleware({
     target: "http://52.90.19.163:8081",
     changeOrigin: true,
